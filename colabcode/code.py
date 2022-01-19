@@ -16,7 +16,7 @@ except ImportError:
 
 
 EXTENSIONS = ["ms-python.python", "ms-toolsai.jupyter", "mechatroner.rainbow-csv", "vscode-icons-team.vscode-icons"]
-CODESERVER_VERSION = "3.10.2"
+CODESERVER_VERSION = "4.0.1"
 
 
 class ColabCode:
@@ -24,14 +24,14 @@ class ColabCode:
         self,
         port=10000,
         password=None,
-        authtoken=True,
+        authtoken=None,
         mount_drive=False,
         code=True,
         lab=False,
     ):
         self.port = port
         self.password = password
-        self.authtoken = 1vnwZ6zz7JLOBb7mRQtzb3FCuTo_6ooyZTqLdZGmK9VQY37HK
+        self.authtoken = authtoken
         self._mount = mount_drive
         self._code = code
         self._lab = lab
