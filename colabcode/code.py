@@ -15,7 +15,7 @@ except ImportError:
     colab_env = False
 
 
-EXTENSIONS = ["ms-python.python","llvm-vs-code-extensions.vscode-clangd", "jbenden.c-cpp-flylint","streetsidesoftware.code-spell-checker", "streetsidesoftware.code-spell-checker", "ms-toolsai.jupyter", "mechatroner.rainbow-csv", "vscode-icons-team.vscode-icons", "tabnine.tabnine-vscode", "esbenp.prettier-vscode", "robbowen.synthwave-vscode"]
+EXTENSIONS = ["ms-python.python","sonarsource.sonarlint-vscode" ,"llvm-vs-code-extensions.vscode-clangd" ,"jbenden.c-cpp-flylint","streetsidesoftware.code-spell-checker", "streetsidesoftware.code-spell-checker", "ms-toolsai.jupyter", "mechatroner.rainbow-csv", "vscode-icons-team.vscode-icons", "tabnine.tabnine-vscode", "esbenp.prettier-vscode", "robbowen.synthwave-vscode"]
 CODESERVER_VERSION = "4.0.1"
 
 
