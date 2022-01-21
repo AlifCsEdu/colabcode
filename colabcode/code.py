@@ -15,7 +15,12 @@ except ImportError:
     colab_env = False
 
 
-EXTENSIONS = ["ms-python.python","sonarsource.sonarlint-vscode" ,"llvm-vs-code-extensions.vscode-clangd" ,"jbenden.c-cpp-flylint","streetsidesoftware.code-spell-checker", "streetsidesoftware.code-spell-checker", "ms-toolsai.jupyter", "mechatroner.rainbow-csv", "vscode-icons-team.vscode-icons", "tabnine.tabnine-vscode", "esbenp.prettier-vscode", "robbowen.synthwave-vscode"]
+EXTENSIONS = ["ms-python.python","sonarsource.sonarlint-vscode" ,"llvm-vs-code-extensions.vscode-clangd" ,"jbenden.c-cpp-flylint","streetsidesoftware.code-spell-checker",
+              "streetsidesoftware.code-spell-checker", "ms-toolsai.jupyter", "mechatroner.rainbow-csv", "vscode-icons-team.vscode-icons", "tabnine.tabnine-vscode", 
+              "esbenp.prettier-vscode", "robbowen.synthwave-vscode", "dbaeumer.vscode-eslint", "oderwat.indent-rainbow", "maciekkoks.luvia-theme", 
+              "ms-vscode.cpptools-extension-pack", "wesbos.theme-cobalt2", "whizkydee.material-palenight-theme", "ekelley.midnight-synth", 
+              "luis-reyes.synth-wave-remix", "webrender.synthwave-x-fluoromachine", "sabrsorensen.synthwave-blues", "aaronYoung.dark-synthwave-vscode", 
+              "ajshort.include-autocomplete", "notskm.clang-tidy"]
 CODESERVER_VERSION = "4.0.1"
 
 
