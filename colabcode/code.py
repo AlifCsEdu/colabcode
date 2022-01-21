@@ -20,7 +20,7 @@ EXTENSIONS = ["ms-python.python","sonarsource.sonarlint-vscode" ,"llvm-vs-code-e
               "esbenp.prettier-vscode", "robbowen.synthwave-vscode", "dbaeumer.vscode-eslint", "oderwat.indent-rainbow", "maciekkoks.luvia-theme", 
               "ms-vscode.cpptools-extension-pack", "wesbos.theme-cobalt2", "whizkydee.material-palenight-theme", "ekelley.midnight-synth", 
               "luis-reyes.synth-wave-remix", "webrender.synthwave-x-fluoromachine", "sabrsorensen.synthwave-blues", "aaronYoung.dark-synthwave-vscode", 
-              "ajshort.include-autocomplete", "notskm.clang-tidy"]
+              "ajshort.include-autocomplete", "notskm.clang-tidy", "formulahendry.code-runner"]
 CODESERVER_VERSION = "4.0.1"
 
 
